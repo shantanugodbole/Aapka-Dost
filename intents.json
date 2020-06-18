@@ -1,0 +1,116 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are the symptoms of Covid-19?",
+        "Should I get a Covid test?",
+        "What are the early signs of coronavirus?"
+      ],
+      "responses": [
+        "The most common features for Covid-19 are tiredness,fever and dry cough, if you are experiencing any of these, please visit //Insert URL for more information",
+        "Fever, Dry Cough and tiredness are the first symptoms",
+        "In some cases along with fever and tiredness, one might lose sense of taste as well",
+        "Fever, Dry Cough and Sore Throat",
+        "Feeling tired and feverish are some mild symptoms and serious symptoms includes difficulty in breathing"
+      ]
+    },
+    {
+      "tag": "treatment",
+      "patterns": [
+        "What is the treatment for Covid-19?",
+        "What is the treatment for the coronavirus?",
+        "Can I try home remedies if I feel the symptoms?",
+        "Is there any ayurvedic treatment for corona?",
+        "Should I buy Hydroxychloroquine if I feel feverish?"
+      ],
+      "responses": [
+        "As of now, there is no official tretament or vaccine available",
+        "The best remedy is prevention, always social distance if you venture out!",
+        "The scientists and doctors are working hard for you, so the best you could do is #StayHomeStaySafe",
+        "There is no official medicine yet, please dont believe in rumours",
+        "If you have mild symptoms and are otherwise healthy, self-isolate and contact your medical provider or a COVID-19 information line for advice."
+      ]
+    },
+    {
+      "tag": "prevention",
+      "patterns": [
+        "How do I make sure that I dont contract the virus?",
+        "How can I stay safe?",
+        "What will be helpful to keep Corona away?",
+        "How do I keep myself safe from coronavirus?"
+      ],
+      "responses": [
+        "Stay home, don't step out if you absolutely need to",
+        "Wash your hands regularly and try not to constantly keep touching your face and mouth",
+        "If you are going out, wear a mask and keep some sanitizer handy",
+        "If you are working as an essential servant, take extra care with a face mask and hand gloves",
+        "If you sneeze or cough always cover your mouth to stop potential spread",
+        "If you feel any of the symptoms, please reach out to the official Covid-19 helpline"
+      ]
+    },
+    {
+      "tag": "resources",
+      "patterns": [
+        "Whom should I contact if I am in need of help?",
+        "Covid-19 Helplines",
+        "What do I do if I'm exposed to the virus?",
+        "How do I get tested for coronavirus?"
+      ],
+      "responses": [
+        "The central Helpline number for India is +91-11-23978046",
+        "For more information, please visit www.mohfw.gov.in",
+        "For more information, download Aarogya Setu App which is available on Android and iOS"
+      ]
+    },
+    {
+      "tag": "what",
+      "patterns": ["What is coronavirus?", "What is Covid-19?"],
+      "responses": [
+        "Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus."
+      ]
+    },
+    {
+      "tag": "transmission",
+      "patterns": [
+        "How did Covid-19 originate?",
+        "Where did Covid-19 originate",
+        "How is coronavirus transmitted?"
+      ],
+      "responses": [
+        "The COVID-19 virus spreads primarily through droplets of saliva or discharge from the nose when an infected person coughs or sneezes, so it’s important that you also practice respiratory etiquette."
+      ]
+    }
+  ]
+}
