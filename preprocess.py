@@ -1,4 +1,5 @@
 import nltk
+import numpy as np
 from nltk.stem.porter import PorterStemmer
 stemmer = PorterStemmer()
 
@@ -27,13 +28,11 @@ def refineWords(stemmed):
     return stemmed
 
 
-
-# a = "My name is Shantanu Godbole."
-# token_a = tokenization(a)
-# # lower_a = lowercase(token_a)
-# stemmed_a = stemmed_output(token_a)
-# refined_a = refineWords(stemmed_a)
-# print(token_a)
-# print(stemmed_a)
-# # print(stemmed_a)
-# print(refined_a)
+def bagofWords(tokenized_sentence, all_words):
+    stemmed_sent = stemmed_output(tokenized_sentence)
+    bow = np.zeros(len(all_words), dtype=np.float32)
+    for index, word in enumerate(all_words):
+        if word in stemmed_sent:
+            bow[index]=1
+    
+    return bow
