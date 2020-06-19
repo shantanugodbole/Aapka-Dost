@@ -2,12 +2,9 @@
 
 ### Aapka Dost is a Coronavirus assistant which gives the user information about symptoms, measures and helplines related to 2019-nCov
 
-<div align="center">
-[![](https://img.shields.io/badge/Made_with-PyTorch-red?style=for-the-badge&logo=tinder)](https://pytorch.org "PyTorch")
-[![](http://img.shields.io/badge/Made_with-Python-blue?style=for-the-badge&logo=python)](https://pytorch.org "PyTorch")
 
-</div>
-<br>
+![](https://img.shields.io/badge/Made_with-PyTorch-red?style=for-the-badge&logo=tinder)
+![](http://img.shields.io/badge/Made_with-Python-blue?style=for-the-badge&logo=python)
 
 > Version 1.0.0
 
