@@ -39,7 +39,7 @@
         "What are the early signs of coronavirus?"
       ],
       "responses": [
-        "The most common features for Covid-19 are tiredness,fever and dry cough, if you are experiencing any of these, please visit //Insert URL for more information",
+        "The most common features for Covid-19 are tiredness,fever and dry cough, if you are experiencing any of these, please visit www.mohfw.gov.in",
         "Fever, Dry Cough and tiredness are the first symptoms",
         "In some cases along with fever and tiredness, one might lose sense of taste as well",
         "Fever, Dry Cough and Sore Throat",
@@ -69,10 +69,12 @@
         "How do I make sure that I dont contract the virus?",
         "How can I stay safe?",
         "What will be helpful to keep Corona away?",
-        "How do I keep myself safe from coronavirus?"
+        "How do I keep myself safe from coronavirus?",
+        "what should i do to prevent corona",
+        "How to take care?"
       ],
       "responses": [
-        "Stay home, don't step out if you absolutely need to",
+        "Stay home, don't step out unless you absolutely need to",
         "Wash your hands regularly and try not to constantly keep touching your face and mouth",
         "If you are going out, wear a mask and keep some sanitizer handy",
         "If you are working as an essential servant, take extra care with a face mask and hand gloves",
@@ -95,7 +97,7 @@
       ]
     },
     {
-      "tag": "what",
+      "tag": "general",
       "patterns": ["What is coronavirus?", "What is Covid-19?"],
       "responses": [
         "Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus."
