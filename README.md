@@ -19,4 +19,4 @@ The Neural Network is a basic _Feed Forward_ Network with 4 hidden, fully connec
 
 ### Output 
 
-![Screenshot](screenshots\Output1.png)
+![Image](https://github.com/shantanugodbole/Aapka-Dost/blob/master/screenshots/Output1.png)
